@@ -1,12 +1,12 @@
 GIT
-  remote: git://github.com/edendevelopment/paginate_alphabetically.git
+  remote: https://github.com/edendevelopment/paginate_alphabetically.git
   revision: f9ed9c1b043de06a2c60dd11a324b2eb4657635b
   branch: bundler
   specs:
     paginate_alphabetically (0.3.3)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     Saikuro (1.1.0)
     abstract (1.0.0)

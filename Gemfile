@@ -1,7 +1,7 @@
-source :rubygems
+source 'https://rubygems.org'
 
 #<<<<<<< HEAD
-gem "rails", "= 3.0.20"
+gem "rails"
 gem "mysql"
 gem "eventmachine", "=1.0.0.beta.3"
 #<<<<<<< HEAD
@@ -13,12 +13,13 @@ gem "eventmachine", "=1.0.0.beta.3"
 gem 'pg'
 
 gem 'configurable_engine'
-gem 'paginate_alphabetically', git: 'git://github.com/edendevelopment/paginate_alphabetically.git', branch: 'bundler'
+# gem 'paginate_alphabetically', git: 'https://github.com/edendevelopment/paginate_alphabetically', branch: 'bundler'
 #>>>>>>> edendevelopment/master
 #>>>>>>> origin/master
 
 gem 'haml'
 gem 'compass'
+# gem 'bundler', '1.17.3'
 
 gem 'inherited_resources', '1.1.2'
 
@@ -44,8 +45,8 @@ end
 
 group :test do
   gem 'jasmine'
-  gem 'rack-cache', :require => 'rack/cache'
-  gem "rspec-rails"
+  #gem 'rack-cache', :require => 'rack/cache'
+  #gem "rspec-rails"
   gem 'capybara'
   gem 'database_cleaner'
   gem 'culerity'
@@ -56,6 +57,6 @@ group :test do
   gem 'googlecharts'
   gem 'launchy'
   gem 'factory_girl'
-  gem 'ruby-debug19'
+  #gem 'ruby-debug19'
   
 end
